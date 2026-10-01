@@ -1,0 +1,7 @@
+PS C:\Users\Unicesumar\Documents\atv\turma-a> docker stop docker-a
+>> docker inspect --format '{{.State.Status}}' docker-a
+>> docker ps -a --filter name=docker-a 
+docker-a                
+exited                    
+CONTAINER ID   IMAGE          COMMAND                  CREATED         STATUS                              PORTS     NAMES 
+9bda1cb69570   nginx:alpine   "/docker-entrypoint.…"   4 minutes ago   Exited (0) Less than a second ago             docker-a
